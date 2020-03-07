@@ -52,7 +52,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('assets/background3.jpg') no-repeat center center fixed;
+  background: url('assets/background4.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -61,8 +61,8 @@ body {
 }
 
 .head, .content {
-  width: 90%;
-  margin: 0 100px;
+  width: 100%;
+  margin: 0;
 }
 
 .content {
@@ -99,9 +99,12 @@ img:hover {
 }
 
 .profile-card {
-  background-color: hsla(192, 100%, 50%, .3);
+  background-color: hsla(192, 100%, 50%, .6);
   border-radius: 14px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+.profile-card:hover {
+  background-color: hsla(358, 100%, 50%, 0.39);
 }
 
 /* Contact links */
@@ -114,8 +117,8 @@ li {
   display: inline;
 }
 h1 {
-  font-family: "Arial Black";
-  text-transform: uppercase;
+  font-family: "Sans Serif";
+  text-transform: capitalize;
   letter-spacing: 1px;
   line-height: 2;
   color: white;
@@ -124,10 +127,11 @@ h2 {
   font-family: Arial;
   font-weight: normal;
   line-height: 2;
+  color: azure;
 }
 span {
   font-size: 13px;
-  color: #696969;
+  color: oldlace;
   line-height: 1.4;
 }
 
@@ -140,8 +144,11 @@ p {
 }
 
 a {
-  color: #696969;
-  padding: 3px;
+  color: rgba(255, 0, 8, 0.7);
+  padding: 5px;
 }
 
+a:hover {
+  color: hsla(192, 100%, 50%, .6);
+}
 
