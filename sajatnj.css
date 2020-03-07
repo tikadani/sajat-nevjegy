@@ -43,7 +43,7 @@
 /* Positioning */
 
 .profile-card {
-  width: 480px;
+  width: 400px;
   max-width: calc(100vw - 10px);
 }
 
@@ -99,8 +99,8 @@ img:hover {
 }
 
 .profile-card {
-  background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 4px;
+  background-color: hsla(192, 100%, 50%, .3);
+  border-radius: 14px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
 
@@ -118,6 +118,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 2;
+  color: white;
 }
 h2 {
   font-family: Arial;
@@ -134,6 +135,7 @@ p {
   font-family: Arial;
   font-size: 15px;
   line-height: 1.4;
+  color: white;
   
 }
 
