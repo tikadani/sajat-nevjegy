@@ -67,15 +67,13 @@ body {
 
 .content {
   border-top: 1px solid hsla(0, 0%, 30%, .8);
+  padding: 5% 10%;
 }
 
 .head, .about {
   margin-bottom: 5%;
 }
 
-.content {
-  padding: 5% 10%;
-}
 
 /* Profile image */
 
@@ -122,6 +120,7 @@ h1 {
   letter-spacing: 1px;
   line-height: 2;
   color: white;
+  text-shadow: 2px 2px black;
 }
 h2 {
   font-family: Arial;
