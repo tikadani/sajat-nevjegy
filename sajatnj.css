@@ -45,6 +45,10 @@
 .profile-card {
   width: 400px;
   max-width: calc(100vw - 10px);
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  margin: 10px;
 }
 
 body {
@@ -54,6 +58,7 @@ body {
   justify-content: center;
   background: url('assets/background4.jpg') no-repeat center center fixed;
   background-size: cover;
+  position: relative;
 }
 
 .head, .links {
@@ -67,7 +72,7 @@ body {
 
 .content {
   border-top: 1px solid hsla(0, 0%, 30%, .8);
-  padding: 5% 10%;
+  padding: 5% 10%; 
 }
 
 .head, .about {
@@ -127,6 +132,7 @@ h2 {
   font-weight: normal;
   line-height: 2;
   color: azure;
+  text-shadow: 2px 2px black;
 }
 span {
   font-size: 13px;
@@ -139,6 +145,7 @@ p {
   font-size: 15px;
   line-height: 1.4;
   color: white;
+  text-shadow: 2px 2px black;
   
 }
 
